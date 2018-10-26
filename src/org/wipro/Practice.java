@@ -10,9 +10,7 @@ public class Practice {
 public static void main(String[] args) {
 	Map<Integer, String> emp = new HashMap<>();
 	emp.put(10, "Dinesh");
-	emp.put(40, "Geetha");
-	emp.put(30, "Asmitha");
-	emp.put(20, "Jean");
+	emp.put(20, "Ramesh");
 	System.out.println(emp);
 	boolean c = emp.containsKey(30);
 	System.out.println(c);
